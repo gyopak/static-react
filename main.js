@@ -1,8 +1,8 @@
 import { React, ReactDOM } from 'https://unpkg.com/es-react';
 import htm from 'https://unpkg.com/htm?module'
-const html = htm.bind(React.createElement)
-
 import Header from './components/header.js';
+
+const html = htm.bind(React.createElement)
 
 const Route = {
  '/': React.lazy(() => import('./routes/home.js')),
