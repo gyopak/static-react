@@ -3,8 +3,15 @@ import List from '../components/list.js';
 
 const style = {
   container: css`
-    margin: 1rem;
+    margin: 3rem;
     text-align: center;
+    width: 80%;
+    margin: 5rem auto;
+    max-width: 500px;
+    background: black;
+    padding: 2rem;
+    color: white;
+    border-radius: 10px;
   `,
   title: css`
     margin-bottom: 1rem;
@@ -17,11 +24,11 @@ const style = {
 };
 
 const yaay = [
-  'react', 'dynamic components', 'dynamic style',
+  'react', 'dynamic components', 'dynamic style', 'networking'
 ];
 
 const naay = [
-  'npm', 'babel', 'webpack',
+  'npm', 'babel', 'webpack', 'bundle'
 ];
 
 export default () => html`

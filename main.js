@@ -2,6 +2,12 @@ import { React, ReactDOM } from 'https://unpkg.com/es-react';
 import htm from 'https://unpkg.com/htm?module'
 import Header from './components/header.js';
 
+import Pubsub from './services/pubsub.js';
+import Network from './services/network.js';
+
+window.PUBSUB = Pubsub();
+window.NETWORK = Network();
+
 const html = htm.bind(React.createElement)
 
 const Route = {
