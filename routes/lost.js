@@ -1,0 +1,10 @@
+import { React, ReactDOM } from 'https://unpkg.com/es-react@16.8.30';
+import htm from 'https://unpkg.com/htm?module';
+const html = htm.bind(React.createElement);
+
+export default () => html`
+<div>
+  <h2>uh oh</h2>
+  <h3>nothing here 😢</h3>
+</div>
+`;
