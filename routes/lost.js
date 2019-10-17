@@ -1,6 +1,4 @@
-import { React, ReactDOM } from 'https://unpkg.com/es-react@16.8.30';
-import htm from 'https://unpkg.com/htm?module';
-const html = htm.bind(React.createElement);
+import { html } from 'https://unpkg.com/rplus';
 
 export default () => html`
 <div>
