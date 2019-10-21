@@ -1,4 +1,4 @@
-import { html } from 'https://unpkg.com/rplus';
+import { html } from 'https://unpkg.com/onthefly-react@1.0.4';
 
 export default () => html`
 <div>
